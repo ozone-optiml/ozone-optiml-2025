@@ -1,0 +1,39 @@
+--- pred_1 ---
+ACC: 94.1907
+POD: 46.4952
+FAR: 57.1855
+F1: 44.5790
+CSI: 0.2868
+
+--- forecast_1 ---
+ACC: 93.7048
+POD: 50.3074
+FAR: 60.0391
+F1: 44.5412
+CSI: 0.2865
+
+--- reanalysis_1 ---
+ACC: 94.6345
+POD: 53.5942
+FAR: 52.9723
+F1: 50.0967
+CSI: 0.3342
+
+--- pred_2 ---
+No data available for calculation.
+
+--- forecast_2 ---
+No data available for calculation.
+
+--- reanalysis_2 ---
+No data available for calculation.
+
+--- pred_3 ---
+No data available for calculation.
+
+--- forecast_3 ---
+No data available for calculation.
+
+--- reanalysis_3 ---
+No data available for calculation.
+

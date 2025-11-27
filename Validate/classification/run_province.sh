@@ -1,0 +1,5 @@
+python evaluate_by_provinces.py --csv_file "total_results/daily_maximum_province_5. lr_0.0001_normalized_d_ff2048_d_model512_reduction4_heads16_elayers6_dlayers6 (new emb)_epoch99_loss0.00010_rmse0.00982.csv"&
+python evaluate_by_provinces.py --csv_file "total_results/daily_maximum_province_6. lr_0.0001_normalized_d_ff2048_d_model512_reduction4_heads16_elayers6_dlayers6_focalTrue (new embed)_epoch99_loss0.00000_rmse0.00066.csv"&
+python evaluate_by_provinces.py --csv_file "total_results/daily_maximum_province_5. lr_0.0001_normalized_d_ff2048_d_model512_reduction4_heads16_elayers6_dlayers6 (new emb)_epoch99_loss0.00010_rmse0.00982.csv"&
+python evaluate_by_provinces.py --csv_file "total_results/daily_maximum_province_5. lr_0.0001_normalized_d_ff2048_d_model512_reduction4_heads16_elayers6_dlayers6 (new emb)_epoch99_loss0.00010_rmse0.00982.csv"&
+python test.py --csv_file "total_results/daily_maximum_province_5. lr_0.0001_normalized_d_ff2048_d_model512_reduction4_heads16_elayers6_dlayers6 (new emb)_epoch99_loss0.00010_rmse0.00982.csv"

@@ -1,0 +1,11 @@
+python eval_station_grid_max.py --model_name "5. lr_0.0001_normalized_d_ff2048_d_model512_reduction4_heads16_elayers6_dlayers6 (new emb)/epoch99_loss0.00010_rmse0.00982.pth"
+python eval_station_grid_max.py --model_name "6. lr_0.0001_normalized_d_ff2048_d_model512_reduction4_heads16_elayers6_dlayers6_focalTrue (new embed)/epoch99_loss0.00000_rmse0.00066.pth"
+python eval_station_grid_max.py --model_name "6.2. lr_0.0001_normalized_d_ff2048_d_model512_reduction4_heads16_elayers6_dlayers6_focalTrue (new embed) gamma=3/epoch99_loss0.00000_rmse0.00003.pth"
+python eval_station_grid_max.py --model_name "6.3. lr_0.0001_normalized_d_ff2048_d_model512_reduction4_heads16_elayers6_dlayers6_focalTrue (new embed) gamma=3 beta=1e4/epoch99_loss0.00672_rmse0.08198.pth"
+
+python eval_station_grid_max_diff.py --model_name "diff_gamma3_beta1e1_p1/epoch99_loss0.00010_rmse0.01010.pth"
+python eval_station_grid_max_diff.py --model_name "diff_gamma3_beta1e3_p1/epoch99_loss0.00009_rmse0.00924.pth"
+python eval_station_grid_max_diff.py --model_name "diff_gamma3_beta1e4_p1/epoch98_loss0.00008_rmse0.00920.pth"
+python eval_station_grid_max_diff.py --model_name "diff_gamma3_beta1e3_p2/epoch99_loss0.00011_rmse0.01047.pth"
+python eval_station_grid_max_diff.py --model_name "diff_gamma3_beta1e4_p2/epoch96_loss0.00009_rmse0.00931.pth"
+python eval_station_grid_max_diff.py --model_name "diff_mse/epoch96_loss0.00009_rmse0.00922.pth"

@@ -1,0 +1,17 @@
+Busan
+Chungcheongbuk-do
+Chungcheongnam-do
+Daegu
+Daejeon
+Gangwon-do
+Gwangju
+Gyeonggi-do
+Gyeongsangbuk-do
+Gyeongsangnam-do
+Incheon
+Jeju
+Jeollabuk-do
+Jeollanam-do
+Sejong
+Seoul
+Ulsan

@@ -1,0 +1,5 @@
+python visualize_diff.py --model_name "fusion_diff_mse/epoch93_loss0.00009_rmse0.00924.pth" --n_heads 16 --reduction 4 --d_ff 2048 --d_model 512 --e_layers 6 --d_layers 6 --tag fusion_diff_mse
+python visualize_diff_fusion.py --model_name "fusion_diff_mse_rope/epoch37_loss0.00009_rmse0.00967.pth" --n_heads 16 --reduction 4 --d_ff 2048 --d_model 512 --e_layers 6 --d_layers 6 --rope --tag fusion_diff_mse_rope
+python visualize_diff_fusion.py --model_name "fusion_diff_mse_rope_head8/epoch37_loss0.00010_rmse0.00984.pth" --n_heads 8 --reduction 4 --d_ff 2048 --d_model 512 --e_layers 6 --d_layers 6 --rope --tag fusion_diff_mse_rope_head8
+python visualize_diff_fusion.py --model_name "fusion_diff_mse_rope_head8/epoch99_loss0.00008_rmse0.00910.pth" --n_heads 8 --reduction 4 --d_ff 2048 --d_model 512 --e_layers 6 --d_layers 6 --rope --tag fusion_diff_mse_rope_head8
+python visualize_diff_fusion.py --model_name "fusion_diff_mse_rope_head8/epoch99_loss0.00008_rmse0.00910.pth" --n_heads 8 --reduction 1 --d_ff 2048 --d_model 512 --e_layers 6 --d_layers 6 --rope --tag fusion_diff_mse_rope_head8_upscale
