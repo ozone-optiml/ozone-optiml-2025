@@ -15,6 +15,7 @@ conda activate <env_name>
 - **`Data/`**: netcdf형식의 파일을 npy형태로 가공
 - **`Dataset/`**: 가공된 npy데이터를 이용한 pytorch 프레임워크의 데이터셋
 - **`Models/`**: SpatioTemporal Attention이 적용된 Transformer기반 오존 예측모델
+- **`ModelsWeights/`**: pth형식의 학습된 model의 weight 및 모델의 hyperparmeter configuration가 정의된 yaml 파일 (head수, encoder 및 decoer 수 등 정의)
 - **`Vadliate/`**: 통계평가 및 지수평가를 위한 코드 및 결과
 - **`Visualize/`**: 학습 결과 시각화 코드
 
